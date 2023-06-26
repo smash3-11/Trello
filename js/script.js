@@ -117,18 +117,7 @@ teams.forEach(function (team) {
   teamMembersSelect.append(memberOption)
 })
 
-// const getSelectedMembers = (teams) => {
-//   var selectElement = document.getElementById("teamMembersSelect");
-//   var selectedMembers = Array.from(selectElement.selectedOptions).map(option => option.value);
-  
-//   var selectedTeamMembers = teams.filter(member => selectedMembers.includes(member.name));
 
-//   selectedTeamMembers.forEach(member => {
-//     var selectedIcon = member.icon;
-//     console.log("Выбранный участник команды:", member.name);
-//     console.log("Иконка:", selectedIcon);
-//   });
-// };
 
 
 function addItem(task) {
